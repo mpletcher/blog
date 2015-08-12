@@ -30,6 +30,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Add JavaScript jQuery frameworks to your app, setup databases on your machine and more
+gem 'devise'
+
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
