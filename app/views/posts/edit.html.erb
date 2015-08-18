@@ -1,0 +1,9 @@
+
+<h2 class="col-sm-offset-2">Edit Post</h2>
+
+<%= render 'form', post: @post %>
+
+<div class="col-sm-offset-2">
+  <p><%= link_to 'delete post', @post, method: :delete, data: {confirm: "Are you sure you want to delete this permanently?"} %></p>
+  <p><%= link_to 'back', post_path(@post) %></p>
+</div>

@@ -9,6 +9,13 @@ gem 'sass-rails', '~> 5.0'
 # Use it for stylesheets
 gem 'bootstrap-sass', '~> 3.2.0' 
 
+# Pagination
+gem 'kaminari'
+gem 'kaminari-bootstrap'
+
+# JavaScript toolkit that allows web developers to use new CSS3 and HTML5 features
+gem 'modernizr-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
